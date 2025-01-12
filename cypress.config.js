@@ -5,6 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "https://magento.softwaretestingboard.com"
+    baseUrl: "https://magento.softwaretestingboard.com",
+    viewportHeight: 1400,
+    viewportHeight: 750
   },
 });

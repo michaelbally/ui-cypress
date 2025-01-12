@@ -1,0 +1,19 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "cypress/globals": true
+    },
+    "plugins": ["prettier", "cypress"],
+    "rules": {
+      "prettier/prettier": "error",
+      "semi": ["error", "always"], // Enforces semicolons at the end of statements
+      "quotes": ["error", "single"], // Enforces single quotes
+      "no-multi-spaces": ["error"] // Disallows multiple spaces between commands
+    }
+  }
+  
