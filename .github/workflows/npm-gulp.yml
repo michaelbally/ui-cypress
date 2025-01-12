@@ -30,6 +30,6 @@ jobs:
     - name: Cypress run
       uses: cypress-io/github-action@v3
       with:
-        project: ./cypress
+        project: ./
         browser: chrome
         
