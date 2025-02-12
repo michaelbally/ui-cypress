@@ -10,11 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.7.1",
-    "eslint": "^9.15.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "gulp": "^5.0.0",
-    "prettier": "^3.4.1"
+    "gulp": "^5.0.0"
   },
   "dependencies": {
     "save-dev": "^0.0.1-security"

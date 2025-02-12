@@ -3,12 +3,17 @@ describe('adds mens top to cart', () => {
   const navSubOption = "All-Weather"
   const addToCartMessage = /You added .* to your shopping cart/;
   
-  before('visit url', ()=>{
-    cy.visit('/')
-  })
+  // before('visit url', ()=>{
+    
+  // })
 
   it('adds mens tee to cart via navbar', () => {  
     // Select Mens Tees from store menu
+    
+    cy.visit('/');
+    cy.get('a').contains('Sign In').click();
+
+    
     cy.get('div[id="store.menu"]') 
       .find('nav > ul > li > #ui-id-5')
       .should('have.attr', 'aria-haspopup').then(() =>{
