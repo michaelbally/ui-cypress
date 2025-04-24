@@ -9,8 +9,7 @@
   "author": "michael ball",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.7.1",
-    "gulp": "^5.0.0"
+    "cypress": "^14.3.1"
   },
   "dependencies": {
     "save-dev": "^0.0.1-security"
